@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
 "use client";
 
@@ -21,7 +19,7 @@ export default function ForBusinessHeroContent() {
       <GetStartedForm />
 
       <p className="text-[11px] md:text-xs">
-        FinaHive Technologies is a financial technology company, not a bank or
+        BeeHaiv Technologies is a financial technology company, not a bank or
         FDIC-insured depository institution. Banking services are provided by
         FirstBank, a Tennessee corporation, and by Grasshopper Bank, N.A. and
         Third Coast Bank SSB; Members FDIC. The FDIC's deposit insurance

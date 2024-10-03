@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const defaultTestimonial = `FinaHive is our go-to platform for business banking. They provide
+const defaultTestimonial = `BeeHaiv is our go-to platform for business banking. They provide
             incredible support and an easy-to-navigate UI which lets us
             consolidate our checking accounts and other treasury management
             accounts into one dashboard`;
@@ -36,7 +36,7 @@ export default function Testimonial({
             opinions. Results may vary and are not guaranteed for all users. The
             case studies discussed herein were selected based on objective
             non-performance based criteria and are provided for illustrative
-            purposes. There is no guarantee that your experience on FinaHive will
+            purposes. There is no guarantee that your experience on BeeHaiv will
             be the same.
           </p>
         </div>

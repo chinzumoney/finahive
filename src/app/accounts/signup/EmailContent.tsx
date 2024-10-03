@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import {
   Container,
   Head,
@@ -75,7 +73,7 @@ export default function VerifyEmail({ verificationCode }: AWSVerifyEmailProps) {
       }}
     >
       <Head />
-      <Preview>Hive Sparkle Email Verification</Preview>
+      <Preview>Beehaiv Email Verification</Preview>
       <body
         className={
           "bg-background text-foreground w-full h-full flex flex-col items-center justify-center"
@@ -95,7 +93,7 @@ export default function VerifyEmail({ verificationCode }: AWSVerifyEmailProps) {
                 className="w-16"
                 width="75"
                 height="45"
-                alt="Hive Sparkle's Logo"
+                alt="Beehaiv's Logo"
               />
             </Section>
             <Section className={"p-4"}>
@@ -103,7 +101,7 @@ export default function VerifyEmail({ verificationCode }: AWSVerifyEmailProps) {
                 Verify your email address
               </Heading>
               <Text className={"text-sm font-normal"}>
-                Thanks for starting the new Hive Sparkle account creation process. We
+                Thanks for starting the new Beehaiv account creation process. We
                 want to make sure it&apos;s really you. Please enter the following
                 verification code when prompted. If you don&apos;t want to
                 complete your account creation, you can ignore this message.
@@ -141,14 +139,14 @@ export default function VerifyEmail({ verificationCode }: AWSVerifyEmailProps) {
           </Section>
           <hr />
           <Text className={"py-2 text-[11px]"}>
-            This message was produced and distributed by Hive Sparkle Technology..
+            This message was produced and distributed by Beehaiv Technology..
             All rights reserved. This is a test project of{" "}
             <Link
-              href="https://finahive.online"
+              href="https://beehaiv.jeremiahedavid.online"
               target="_blank"
               className={"text-blue-600 underline"}
             >
-              Hive Sparkle Technology Inc.
+              Beehaiv Technology Inc.
             </Link>
             .
           </Text>

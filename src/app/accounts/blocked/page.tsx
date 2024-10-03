@@ -1,13 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import { Separator } from "@/components/ui/separator";
 import { Metadata } from "next";
-// import Image from "next/image";
+import Image from "next/image";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "User Blocked - FinaHive Finance Tech",
+  title: "User Blocked - BeeHaiv Finance Tech",
   description:
-    "FinaHive is a financial technology for businesses with no commitment and zero paper-work.",
+    "BeeHaiv is a financial technology for businesses with no commitment and zero paper-work.",
 };
 
 export default function Blocked() {

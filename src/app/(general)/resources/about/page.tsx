@@ -6,9 +6,9 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "About Us - FinaHive Finance Tech",
+  title: "About Us - BeeHaiv Finance Tech",
   description:
-    "FinaHive is a financial technology for businesses with no commitment and zero paper-work.",
+    "BeeHaiv is a financial technology for businesses with no commitment and zero paper-work.",
 };
 
 export default function About() {
@@ -17,12 +17,12 @@ export default function About() {
       <section className="w-screen pt-24 flex flex-col items-center justify-center text-center space-y-6 min-h-[70vh]">
         <div className="container h-full flex flex-col items-center justify-center space-y-8">
           <h1 className="text-5xl lg:text-7xl font-bold">
-            Hive Sparkle exists to save your business money
+            Beehaiv exists to save your business money
           </h1>
           <Separator className="w-8 bg-foreground" />
           <p className="text-sm lg:text-lg">
-            FinaHive believes you deserve the majority of the returns on your
-            money. When you win, Hive Sparkle wins
+            BeeHaiv believes you deserve the majority of the returns on your
+            money. When you win, Beehaiv wins
           </p>
         </div>
       </section>
@@ -39,7 +39,7 @@ export default function About() {
           <Separator className="md:hidden" />
           <div className="space-y-4 flex flex-col items-center">
             <h2 className="text-5xl md:text-8xl font-bold">$1B+</h2>
-            <p>FinaHive Technologies assets on platform</p>
+            <p>BeeHaiv Technologies assets on platform</p>
           </div>
           <Separator
             orientation="vertical"
@@ -48,7 +48,7 @@ export default function About() {
           <Separator className="md:hidden" />
           <div className="space-y-4 flex flex-col items-center">
             <h2 className="text-5xl md:text-8xl font-bold">1,025+</h2>
-            <p>Businesses with funded accounts through FinaHive</p>
+            <p>Businesses with funded accounts through BeeHaiv</p>
           </div>
         </div>
         <div className="container py-8 grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -62,7 +62,7 @@ export default function About() {
           <div className="space-y-4">
             <p className="text-sm">
               Financial services have always felt a icky to us. That's why we
-              started FinaHive.
+              started BeeHaiv.
               <br />
               <br />
               We're building this company with what we call a "Midwestern
@@ -71,7 +71,7 @@ export default function About() {
               parties.
               <br />
               <br />
-              We care about keeping our costs low at FinaHive, so that we can
+              We care about keeping our costs low at BeeHaiv, so that we can
               hopefully pass back better and better savings to our customers.
               Because at the end of the day, that's all that matters to your
               business.

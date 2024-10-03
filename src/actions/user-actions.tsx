@@ -1,11 +1,8 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @typescript-eslint/no-unused-vars */
-
 "use server";
 
 import { z } from "zod";
 import axios from "axios";
-import { baseUrl } from "@/utils/global";
+import { baseUrl, domain } from "@/utils/global";
 
 const userFormSchema = z.object({
   first_name: z.string().min(2).max(255),

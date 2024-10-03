@@ -6,9 +6,9 @@ import Tools from "./Tools";
 import HeroContent from "./HeroContent";
 
 export const metadata: Metadata = {
-  title: "Cashback Card - FinaHive Finance Tech",
+  title: "Cashback Card - BeeHaiv Finance Tech",
   description:
-    "FinaHive is a financial technology for businesses with no commitment and zero paper-work.",
+    "BeeHaiv is a financial technology for businesses with no commitment and zero paper-work.",
 };
 
 export default function CashBack() {
@@ -20,7 +20,7 @@ export default function CashBack() {
         image=""
         ceo={"/cashback/ceo.jpg"}
         name={"Robert Breedlove"}
-        testimonial={`"FinaHive's borderless business card with unlimited cashback up to 2% offers not only great returns but also seamless integration with our accounts, enhancing our spending power while keeping everything transparent and under control."`}
+        testimonial={`"BeeHaiv's borderless business card with unlimited cashback up to 2% offers not only great returns but also seamless integration with our accounts, enhancing our spending power while keeping everything transparent and under control."`}
       />
     </>
   );

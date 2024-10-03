@@ -1,6 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @typescript-eslint/no-unused-vars */
-
 import {
   Container,
   Head,
@@ -96,7 +93,7 @@ export default function PasswordResetEmail({ verificationCode }: AWSVerifyEmailP
                 className="w-16"
                 width="75"
                 height="45"
-                alt="Hive Sparkle's Logo"
+                alt="Beehaiv's Logo"
               />
             </Section>
             <Section className={"p-4"}>
@@ -139,14 +136,14 @@ export default function PasswordResetEmail({ verificationCode }: AWSVerifyEmailP
           </Section>
           <hr />
           <Text className={"py-2 text-[11px]"}>
-            This message was produced and distributed by Hive Sparkle Technology..
+            This message was produced and distributed by Beehaiv Technology..
             All rights reserved. This is a test project of{" "}
             <Link
-              href="https://finahive.online"
+              href="https://beehaiv.jeremiahedavid.online"
               target="_blank"
               className={"text-blue-600 underline"}
             >
-              Hive Sparkle Technology Inc.
+              Beehaiv Technology Inc.
             </Link>
             .
           </Text>

@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
 import AccountsForm from "@/components/commons/AccountsForm";
 import Link from "next/link";
@@ -11,7 +9,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Basic Information - Onboarding",
   description:
-    "FinaHive is a financial technology for businesses with no commitment and zero paper-work.",
+    "BeeHaiv is a financial technology for businesses with no commitment and zero paper-work.",
 };
 
 export default function Basic() {
@@ -37,7 +35,7 @@ const Footer = () => {
       <p className="text-xs text-gray-400">
         By clicking “Sign up with Google” or "Sign up" above, you certify that
         you are 18 years of age or older, read and agree to be bound by
-        FinaHive's Terms of Service and the linked terms of Third Coast Bank SSB;
+        BeeHaiv's Terms of Service and the linked terms of Third Coast Bank SSB;
         Member FDIC and Grasshopper Bank N.A.; Member FDIC and FirstBank, a
         Tennessee Corporation; Member FDIC, and acknowledge the Privacy Policy.
       </p>

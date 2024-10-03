@@ -6,9 +6,9 @@ import { Button } from '../ui/button';
 import { useRouter } from 'next/navigation';
 
 /**
- * The `Logo` function returns a JSX element representing the logo of a website called FinaHive.
+ * The `Logo` function returns a JSX element representing the logo of a website called BeeHaiv.
  * @returns The `Logo` component is being returned, which consists of a link (`<Link>`) containing an
- * image (`<Image>`) and a strong element (`<strong>`) with the text "FinaHive".
+ * image (`<Image>`) and a strong element (`<strong>`) with the text "BeeHaiv".
  */
 export default function Logo() {
   const router = useRouter();
@@ -27,7 +27,7 @@ export default function Logo() {
         height={24}
       />
       <strong className="notranslate hidden lg:flex text-xl font-bold w-fit">
-        FinaHive
+        BeeHaiv
       </strong>
     </Button>
   );

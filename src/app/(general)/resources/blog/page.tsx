@@ -6,9 +6,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Our Blog - FinaHive Finance Tech",
+  title: "Our Blog - BeeHaiv Finance Tech",
   description:
-    "FinaHive is a financial technology for businesses with no commitment and zero paper-work.",
+    "BeeHaiv is a financial technology for businesses with no commitment and zero paper-work.",
 };
 
 export default function BlogList() {
@@ -29,10 +29,11 @@ export default function BlogList() {
           {posts.map((post, index) => (
             <article
               key={index}
-              className={`${index === 0
-                ? "lg:col-span-2 md:row-span-2 lg:row-span-3 flex-col space-y-4"
-                : "space-x-4 flex-row "
-                } flex overflow-hidden`}
+              className={`${
+                index === 0
+                  ? "lg:col-span-2 md:row-span-2 lg:row-span-3 flex-col space-y-4"
+                  : "space-x-4 flex-row "
+              } flex overflow-hidden`}
             >
               <Link
                 href={`/resources/blog/${post.slug}`}
@@ -57,7 +58,7 @@ export default function BlogList() {
               </div>
               <p className="h-fit flex-none text-sm">
                 {new Date(post.publishedDate).toLocaleDateString("en-US", {
-                  //   weekday: "long", // "Monday"
+                //   weekday: "long", // "Monday"
                   year: "numeric", // "2024"
                   month: "short", // "Sep"
                   day: "numeric", // "6"

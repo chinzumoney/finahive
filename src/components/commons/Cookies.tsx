@@ -137,14 +137,16 @@ export default function Cookies() {
 
   return (
     <section
-      className={`${!showConsent && "hidden"} ${(consentPreference || showCookiePolicy) && "h-screen bg-foreground/30"
-        } fixed w-screen z-50 bottom-0 left-0 right-0 p-4 lg:p-8`}
+      className={`${!showConsent && "hidden"} ${
+        (consentPreference || showCookiePolicy) && "h-screen bg-foreground/30"
+      } fixed w-screen z-50 bottom-0 left-0 right-0 p-4 lg:p-8`}
     >
       <div
-        className={`duration-300 ease-in-out transition-all max-h-full ${showConsent && !showCookiePolicy && !consentPreference
-          ? "h-fit"
-          : "h-full relative  pt-16"
-          } container p-8 rounded-lg flex flex-col md:flex-row space-y-6 lg:space-y-0 lg:space-x-6 bg-white shadow-xl`}
+        className={`duration-300 ease-in-out transition-all max-h-full ${
+          showConsent && !showCookiePolicy && !consentPreference
+            ? "h-fit"
+            : "h-full relative  pt-16"
+        } container p-8 rounded-lg flex flex-col md:flex-row space-y-6 lg:space-y-0 lg:space-x-6 bg-white shadow-xl`}
       >
         {showConsent && (showCookiePolicy || consentPreference) && (
           <>
@@ -232,16 +234,16 @@ function CookiePolicy() {
       </strong>
 
       <p className="text-xs lg:text-sm">
-        This Cookie Policy explains how FinaHive Technologies Inc. ("
+        This Cookie Policy explains how BeeHaiv Technologies Inc. ("
         <strong>Company</strong>," "<strong>we</strong>," "<strong>us</strong>,"
         and "<strong>our</strong>") uses cookies and similar technologies to
         recognize you when you visit our website at{" "}
         <Link
           target="_blank"
           className="underline text-yellow-600"
-          href="https://finahive.com"
+          href="https://beehaiv.com"
         >
-          https://finahive.com
+          https://beehaiv.com
         </Link>{" "}
         ("
         <strong>Website</strong>"). It explains what these technologies are and
@@ -264,7 +266,7 @@ function CookiePolicy() {
       </p>
 
       <p className="text-xs lg:text-sm">
-        Cookies set by the website owner (in this case, FinaHive Technologies
+        Cookies set by the website owner (in this case, BeeHaiv Technologies
         Inc.) are called "first-party cookies." Cookies set by parties other
         than the website owner are called "third-party cookies." Third-party
         cookies enable third-party features or functionality to be provided on
@@ -514,7 +516,7 @@ function CookiePreferences({
         data.socialNetworkCookies,
         data.unclassifiedCookies
       );
-    } catch (error: any) { }
+    } catch (error: any) {}
   };
 
   const [
@@ -710,10 +712,10 @@ function CookiePreferences({
         {/* preference footer */}
         <footer className=" max-w-3xl mx-auto w-full h-fit lg:p-4 border rounded flex items-center justify-between lg:justify-end gap-4">
           {performanceAndFunctionalityCookies ||
-            analyticsCookies ||
-            advertisingCookies ||
-            socialNetworkCookies ||
-            unclassifiedCookies ? (
+          analyticsCookies ||
+          advertisingCookies ||
+          socialNetworkCookies ||
+          unclassifiedCookies ? (
             <>
               <Button
                 type="button"

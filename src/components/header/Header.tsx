@@ -295,7 +295,7 @@ const ProductsFlyoutContent = () => {
             <div className="flex flex-col">
               <span className="flex text-base w-fit">Business Checking</span>
               <p className="text-xs font-normal">
-                Access up to 5.02%** Annual Percentage Yield from FinaHive's
+                Access up to 5.02%** Annual Percentage Yield from BeeHaiv's
                 partner banks
               </p>
             </div>
@@ -339,7 +339,7 @@ const ProductsFlyoutContent = () => {
                 International Payments
               </span>
               <p className="text-xs font-normal">
-                Send 40+ currencies internationally on you FinaHive Dashboard
+                Send 40+ currencies internationally on you BeeHaiv Dashboard
               </p>
             </div>
           </Link>
@@ -356,7 +356,7 @@ const ProductsFlyoutContent = () => {
           <div className="flex flex-col">
             <span className="flex text-base w-fit">Founder Mortgage</span>
             <p className="text-xs font-normal">
-              Apply for a founder-friendly mortgage from FinaHive's network of
+              Apply for a founder-friendly mortgage from BeeHaiv's network of
               mortgage providers
             </p>
           </div>
@@ -370,17 +370,17 @@ const ProductsFlyoutContent = () => {
           <div className="flex flex-col">
             <span className="flex text-base w-fit">SBA Loans</span>
             <p className="text-xs font-normal">
-              Apply for SBA loans from FinaHive's SBA loan marketplace
+              Apply for SBA loans from BeeHaiv's SBA loan marketplace
             </p>
           </div>
         </Link>
       </div>
       <div className="md:col-span-3 text-[10px] leading-snug">
         <Separator className="mb-4" />
-        FinaHive Technologies is a financial technology company, not a bank or
-        SBA FDIC-insured depository institution. FinaHive is not a lender,
+        BeeHaiv Technologies is a financial technology company, not a bank or
+        SBA FDIC-insured depository institution. BeeHaiv is not a lender,
         broker, SBA lender, bank or credit union. Lending services are subject
-        to credit approval from FinaHive's partners. FinaHive Advisory LLC is a
+        to credit approval from BeeHaiv's partners. BeeHaiv Advisory LLC is a
         registered investment adviser. Registration as an investment adviser
         does not imply any level of skill or training.
       </div>
@@ -410,7 +410,7 @@ const SolutionsFlyoutContent = () => {
             <div className="flex flex-col">
               <span className="flex text-base w-fit">For Business</span>
               <p className="text-xs font-normal">
-                Get business checking account through FinaHive's partner banks
+                Get business checking account through BeeHaiv's partner banks
                 with free wires, ACH and up to 5.02% APY**
               </p>
             </div>
@@ -425,7 +425,7 @@ const SolutionsFlyoutContent = () => {
               <span className="flex text-base w-fit">For Funds</span>
               <p className="text-xs font-normal">
                 Onboard your funds and management entities all from one log-in
-                with FinaHive's multi-entity dashboard
+                with BeeHaiv's multi-entity dashboard
               </p>
             </div>
           </Link>

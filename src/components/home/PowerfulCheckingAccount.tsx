@@ -12,7 +12,7 @@ export default function PowerfulCheckingAccount() {
             One powerful business checking account
           </strong>
           <p className="w-full">
-            FinaHive Technologies is a financial technology company, not a bank
+            BeeHaiv Technologies is a financial technology company, not a bank
             or FDIC-insured depository institution. Banking services are
             provided by FirstBank, a Tennessee corporation, and by Grasshopper
             Bank, N.A. and Third Coast Bank SSB; Members FDIC. The FDIC&apos;s
@@ -27,7 +27,7 @@ export default function PowerfulCheckingAccount() {
             Say goodbye to wire fees
           </strong>
           <p>
-            There&apos;s no such thing as a wire or ACH fee on FinaHive. Enjoy zero
+            There&apos;s no such thing as a wire or ACH fee on BeeHaiv. Enjoy zero
             fee banking from our bank partners.
           </p>
           <ul>
@@ -47,13 +47,13 @@ export default function PowerfulCheckingAccount() {
         <div className="lg:order-2 p-8 flex flex-col justify-center space-y-6">
           <strong className="text-4xl text-bold">Up to 5.02% APY</strong>
           <p>
-            FinaHive partner banks pay interest on every dollar in your account
+            BeeHaiv partner banks pay interest on every dollar in your account
           </p>
           <ul>
             <li>
               Earn up to 5.025 APY, subject to {' '} <span className="underline">rate sheets</span>
             </li>
-            <li>Interest from FinaHive partner banks compounds daily</li>
+            <li>Interest from BeeHaiv partner banks compounds daily</li>
           </ul>
         </div>
         <div className="lg:order-1 w-full aspect-square lg:p-14">

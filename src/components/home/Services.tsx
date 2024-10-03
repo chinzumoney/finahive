@@ -54,8 +54,8 @@ export default function Services() {
         </div>
       </div>
       <div className="md:col-span-2 lg:col-span-3">
-        FinaHive Technologies is a financial technology company, not a bank. The
-        FinaHive Commercial Card is issued by Community Federal Savings Bank,
+        BeeHaiv Technologies is a financial technology company, not a bank. The
+        BeeHaiv Commercial Card is issued by Community Federal Savings Bank,
         pursuant to a license from VISA U.S.A. Inc. Banking services are
         provided by FirstBank, a Tennessee corporation, and by Grasshopper Bank,
         N.A. and Third Coast Bank SSB; Members FDIC.
@@ -118,9 +118,9 @@ export default function Services() {
         </div>
       </div>
       <div className="md:col-span-2 lg:col-span-3">
-        FinaHive is a financial technology company, not a lender. FinaHive does
+        BeeHaiv is a financial technology company, not a lender. BeeHaiv does
         not issue loans or make credit decisions in connection with loans. All
-        loans are subject to credit approval from FinaHive&apos;s bank or credit
+        loans are subject to credit approval from BeeHaiv&apos;s bank or credit
         partners. SBA loans are provided by a network of vendors and subject to
         their approval. Your terms may vary.
       </div>

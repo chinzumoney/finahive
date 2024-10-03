@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
 
+import Image from "next/image";
 import React from "react";
 import GetStartedForm from "@/components/commons/GetStartedForm";
 
@@ -18,7 +19,7 @@ export default function BusinessCheckingHeroContent() {
       <GetStartedForm />
 
       <p className="text-[11px] md:text-xs">
-        FinaHive Technologies is a financial technology company, not a bank or
+        BeeHaiv Technologies is a financial technology company, not a bank or
         FDIC-insured depository institution. Banking services are provided by
         FirstBank, a Tennessee corporation, and by Grasshopper Bank, N.A. and
         Third Coast Bank SSB; Members FDIC. The FDIC's deposit insurance

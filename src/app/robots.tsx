@@ -13,6 +13,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: "/",
       },
     ],
-    sitemap: "https://finahive.online/sitemap.xml",
+    sitemap: "https://beehaiv.jeremiahedavid.online/sitemap.xml",
   };
 }

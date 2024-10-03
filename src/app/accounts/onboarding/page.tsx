@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
 import AccountsForm from "@/components/commons/AccountsForm";
 import { Button } from "@/components/ui/button";
@@ -11,9 +9,9 @@ import GetStarted from "./GetStarted";
 import ProtectedRoute from "@/components/ProtectedRoute";
 
 export const metadata: Metadata = {
-  title: "Welcome to FinaHive - FinaHive Finance Tech",
+  title: "Welcome to BeeHaiv - BeeHaiv Finance Tech",
   description:
-    "FinaHive is a financial technology for businesses with no commitment and zero paper-work.",
+    "BeeHaiv is a financial technology for businesses with no commitment and zero paper-work.",
 };
 
 export default function Welcome() {
@@ -22,7 +20,7 @@ export default function Welcome() {
       <section className="w-screen h-screen flex flex-col items-center justify-center">
         <div className="container flex flex-col h-full items-center justify-center">
           <AccountsForm
-            title={"Welcome to FinaHive"}
+            title={"Welcome to BeeHaiv"}
             description={<Description />}
             form={<GetStarted />}
             footer={<Footer />}

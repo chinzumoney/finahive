@@ -10,21 +10,21 @@ import { Button } from "@/components/ui/button";
 import {
   Form,
   FormControl,
-  // FormDescription,
+  FormDescription,
   FormField,
   FormItem,
-  // FormLabel,
+  FormLabel,
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-// import { Textarea } from "@/components/ui/textarea";
-// import {
-//   Select,
-//   SelectContent,
-//   SelectItem,
-//   SelectTrigger,
-//   SelectValue,
-// } from "@/components/ui/select";
+import { Textarea } from "@/components/ui/textarea";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 const FormSchema = z.object({
   email: z.string().email("Invalid email address").min(1, "Email is required"),

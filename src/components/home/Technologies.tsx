@@ -7,7 +7,7 @@ export default function Technologies() {
       <div className="container grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="lg:col-span-2">
           <strong className="text-4xl font-bold">
-            FinaHive Technologies by the numbers
+            BeeHaiv Technologies by the numbers
           </strong>
         </div>
         <div className="rounded-md overflow-hidden bg-foreground text-gray-300 aspect-video relative w-full">
@@ -30,7 +30,7 @@ export default function Technologies() {
               1,000+
             </strong>
             <Separator className="w-8" />
-            <p>Businesses with funded accounts through FinaHive</p>
+            <p>Businesses with funded accounts through BeeHaiv</p>
           </div>
         </div>
       </div>

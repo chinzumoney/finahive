@@ -18,7 +18,7 @@ export default function BusinessLoansHeroContent() {
       <GetStartedForm />
 
       <p className="text-[11px] md:text-xs">
-        FinaHive does not issue loans or make credit decisions in connection with
+        BeeHaiv does not issue loans or make credit decisions in connection with
         loans. All loans are subject to credit approval. Your terms may vary.
         Loans are issued by Kanmon, a licensed lender. California Loans are made
         pursuant to a Department of Financial Protection and Innovation

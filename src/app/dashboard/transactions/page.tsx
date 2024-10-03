@@ -3,9 +3,9 @@ import Transactions, { columns } from "../Transactions";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Transactions - FinaHive Finance Tech",
+  title: "Transactions - BeeHaiv Finance Tech",
   description:
-    "FinaHive is a financial technology for businesses with no commitment and zero paper-work.",
+    "BeeHaiv is a financial technology for businesses with no commitment and zero paper-work.",
 };
 
 export default function Transaction() {

@@ -1,17 +1,14 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @typescript-eslint/no-unused-vars */
-
 "use server";
 
 import { getCurrentDate } from "@/utils/global";
-// import { ResponseCookie } from "next/dist/compiled/@edge-runtime/cookies";
+import { ResponseCookie } from "next/dist/compiled/@edge-runtime/cookies";
 import { cookies } from "next/headers";
 
-// // Define the accepted action types
-// type ActionType = "create" | "update" | "delete" | "get";
-// type cookieDataProp =
-//   | [key: string, value: any, cookie?: Partial<ResponseCookie>]
-//   | [option: any];
+// Define the accepted action types
+type ActionType = "create" | "update" | "delete" | "get";
+type cookieDataProp =
+  | [key: string, value: any, cookie?: Partial<ResponseCookie>]
+  | [option: any];
 
 const base = process.env.API_BASE_ENDPOINT;
 const cookieStore = cookies();

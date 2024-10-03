@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @typescript-eslint/no-unused-vars */
 "use server";
 
 import { z } from "zod";
@@ -64,7 +62,7 @@ export const loginAction = async (data: z.infer<typeof loginFormSchema>) => {
     // If a verification code is returned, send an email with the code
     if (res.data.code) {
       await resend.emails.send({
-        from: "[Hive Sparkle Technologies] - Email Verification <authority@finahive.online>",
+        from: "[Beehaiv Technologies] - Email Verification <authority@beehaiv.jeremiahedavid.online>",
         to: validatedData.email,
         subject: "Re:Email Verification",
         text: `Copy this code: ${res.data.code} to verify your email address or click this link <a href="https://${res.data.user.domain}/${res.data.code}">Complete Verification</a>`,
@@ -110,9 +108,9 @@ export const verificationCodeAction = async (
 
       // Send welcome email via Resend
       await resend.emails.send({
-        from: "Hive Sparkle <authority@finahive.online>",
+        from: "Beehaiv <authority@beehaiv.jeremiahedavid.online>",
         to: userEmail,
-        subject: "Welcome to Hive Sparkle",
+        subject: "Welcome to Beehaiv",
         text: `Welcome`,
         react: WelcomeEmail({ userFirstname: userEmail }),
       });
@@ -156,7 +154,7 @@ export const signupAction = async (data: z.infer<typeof signUpFormSchema>) => {
 
       // Send welcome email via Resend
       const regEmail = await resend.emails.send({
-        from: "[Hive Sparkle Technologies] - Email Verification <authority@finahive.online>",
+        from: "[Beehaiv Technologies] - Email Verification <authority@beehaiv.jeremiahedavid.online>",
         to: userEmail,
         subject: "Email Verification",
         text: `Verify your email address with this code ${code}`,
@@ -243,7 +241,7 @@ export const resetPasswordAction = async (
       };
     }
     await resend.emails.send({
-      from: "[Hive Sparkle Technologies] - Password Reset Request <authority@finahive.online>",
+      from: "[Beehaiv Technologies] - Password Reset Request <authority@beehaiv.jeremiahedavid.online>",
       to: validatedData.email,
       subject: "Reset Password",
       text: `Copy this code: ${response.data.password_reset_code} to reset your password `,

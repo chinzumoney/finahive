@@ -9,9 +9,9 @@ import BackHome from "@/components/commons/BackHome";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "FinaHive - A Convenient way to banking with interest",
+  title: "BeeHaiv - A Convenient way to banking with interest",
   description:
-    "FinaHive is a financial technology for businesses with no commitment and zero paper-work.",
+    "BeeHaiv is a financial technology for businesses with no commitment and zero paper-work.",
 };
 
 /**

@@ -42,7 +42,7 @@ export default function Tools() {
           <strong className="font-bold text-4xl">
             Powerful tools to help your business grow
           </strong>
-          <p>FinaHive is a financial technology company, not a bank</p>
+          <p>BeeHaiv is a financial technology company, not a bank</p>
           <Separator className="w-8" />
         </div>
 
@@ -60,7 +60,7 @@ export default function Tools() {
               installments.
             </p>
             <span className="block text-[11px]">
-              FinaHive Technologies is a financial technology company, not a bank
+              BeeHaiv Technologies is a financial technology company, not a bank
               or FDIC-insured depository institution. Banking services are
               provided by FirstBank, a Tennessee corporation, and by Grasshopper
               Bank, N.A. and Third Coast Bank SSB; Members FDIC. The FDIC's

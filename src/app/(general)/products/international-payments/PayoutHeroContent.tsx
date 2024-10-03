@@ -9,7 +9,7 @@ export default function PayoutHeroContent() {
       </h2>
       <p className="text-sm md:text-sm">
         Send 40+ currencies, including GBP, EUR, CAD, AUD, JPY, INR, and SGD,
-        internationally on your FinaHive dashboard.{" "}
+        internationally on your BeeHaiv dashboard.{" "}
       </p>
 
       <GetStartedForm />

@@ -4,9 +4,9 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "Founder Mortgages - FinaHive Finance Tech",
+  title: "Founder Mortgages - BeeHaiv Finance Tech",
   description:
-    "FinaHive is a financial technology for businesses with no commitment and zero paper-work.",
+    "BeeHaiv is a financial technology for businesses with no commitment and zero paper-work.",
 };
 export default function FounderMortgages() {
   return (
@@ -23,7 +23,7 @@ export default function FounderMortgages() {
           </p>
 
           <p className="text-[11px] md:text-xs">
-            †FinaHive is not a mortgage lender or broker or depository, bank or
+            †BeeHaiv is not a mortgage lender or broker or depository, bank or
             credit union, and does not receive direct financial compensation in
             connection with the making of any mortgage loan through the
             Mortgages for Founders program. Mortgage lending services are

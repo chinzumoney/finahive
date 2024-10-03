@@ -6,9 +6,9 @@ import LoginForm from "./Form";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Sign In - FinaHive Finance Tech",
+  title: "Sign In - BeeHaiv Finance Tech",
   description:
-    "FinaHive is a financial technology for businesses with no commitment and zero paper-work.",
+    "BeeHaiv is a financial technology for businesses with no commitment and zero paper-work.",
 };
 
 export default function Login() {
@@ -16,7 +16,7 @@ export default function Login() {
     <section className="py-24 overflow-y-auto w-screen h-fit lg:h-screen flex flex-col items-center justify-center">
       <div className="container flex flex-col h-full items-center justify-center">
         <AccountsForm
-          title={"Sign into FinaHive"}
+          title={"Sign into BeeHaiv"}
           description={<Description />}
           form={<LoginForm />}
           footer={<Footer />}
@@ -27,9 +27,9 @@ export default function Login() {
 }
 
 const Description = () => {
-  return <>
+    return <>
     Don't have an account? {' '} <Link className='underline' href={"/accounts/signup"} >Sign Up</Link>
-  </>
+    </>
 }
 const Footer = () => {
   return (
@@ -42,7 +42,7 @@ const Footer = () => {
       </Link>
       <p className="text-xs text-gray-400">
         By clicking “Sign in with Google” or "Sign in", you certify that you are
-        18 years of age or older, read and agree to be bound by FinaHive's Terms of
+        18 years of age or older, read and agree to be bound by BeeHaiv's Terms of
         Service and the linked terms of Third Coast Bank SSB; Member FDIC and
         Grasshopper Bank N.A.; Member FDIC and FirstBank, a Tennessee
         Corporation; Member FDIC, and acknowledge the Privacy Policy.

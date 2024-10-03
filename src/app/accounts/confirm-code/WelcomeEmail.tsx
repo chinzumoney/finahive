@@ -1,6 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @typescript-eslint/no-unused-vars */
-
 import {
   Button,
   Container,
@@ -82,12 +79,12 @@ export const WelcomeEmail = ({ userFirstname }: KoalaWelcomeEmailProps) => (
           src={`${baseUrl}/logo.svg`}
           width="85"
           height="95"
-          alt="Hive Sparkle's logo"
+          alt="Beehaiv's logo"
           style={logo}
         />
         <Text style={paragraph}>Hi {userFirstname},</Text>
         <Text style={paragraph}>
-          Welcome to Hive Sparkle, the one financial technology to manage all your
+          Welcome to Beehaiv, the one financial technology to manage all your
           business needs.
         </Text>
         <Section className={"py-4"}>
@@ -95,7 +92,7 @@ export const WelcomeEmail = ({ userFirstname }: KoalaWelcomeEmailProps) => (
             className={
               "bg-foreground rounded-lg p-2 w-full text-background font-semibold"
             }
-            href="https://finahive.online/accounts/onboarding/basic"
+            href="https://beehaiv.jeremiahedavid.online/accounts/onboarding/basic"
           >
             Get Onboard
           </Button>
@@ -103,18 +100,18 @@ export const WelcomeEmail = ({ userFirstname }: KoalaWelcomeEmailProps) => (
         <Text style={paragraph}>
           Best Regards,
           <br />
-          The Hive Sparkle team
+          The Beehaiv team
         </Text>
         <hr style={hr} />
         <Text className={"py-2 text-[11px]"}>
-          This message was produced and distributed by Hive Sparkle Technology.. All
+          This message was produced and distributed by Beehaiv Technology.. All
           rights reserved. This is a test project of{" "}
           <Link
-            href="https://finahive.online"
+            href="https://beehaiv.jeremiahedavid.online"
             target="_blank"
             className={"text-blue-600 underline"}
           >
-            Hive Sparkle Technology Inc.
+            Beehaiv Technology Inc.
           </Link>
           .
         </Text>

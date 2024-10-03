@@ -10,9 +10,9 @@ import { Metadata } from "next";
 import { Separator } from "@/components/ui/separator";
 
 export const metadata: Metadata = {
-  title: "Frequently Asked Questions - FinaHive Finance Tech",
+  title: "Frequently Asked Questions - BeeHaiv Finance Tech",
   description:
-    "FinaHive is a financial technology for businesses with no commitment and zero paper-work.",
+    "BeeHaiv is a financial technology for businesses with no commitment and zero paper-work.",
 };
 
 export default function FAQ() {
@@ -33,7 +33,7 @@ export default function FAQ() {
             <AccordionItem value="item-1">
               <AccordionTrigger className="font-bold text-xl">
                 What do I need to apply for a business checking account from
-                FinaHive banks?
+                BeeHaiv banks?
               </AccordionTrigger>
               <AccordionContent className="text-sm pl-6">
                 Your business must submit:
@@ -67,7 +67,7 @@ export default function FAQ() {
                 Are my deposits FDIC Insured?
               </AccordionTrigger>
               <AccordionContent className="text-sm pl-6">
-                FinaHive Technologies is a financial technology company, not a
+                BeeHaiv Technologies is a financial technology company, not a
                 bank or FDIC-insured depository institution. Banking services
                 are provided by FirstBank, a Tennessee corporation, and by
                 Grasshopper Bank, N.A. and Third Coast Bank SSB; Members FDIC.
@@ -85,7 +85,7 @@ export default function FAQ() {
                 <br />
                 <br />
                 <strong className="text-xs">
-                  This statement only applies to FinaHive Technologies and does
+                  This statement only applies to BeeHaiv Technologies and does
                   not apply to advisory services.
                 </strong>
               </AccordionContent>
@@ -102,11 +102,11 @@ export default function FAQ() {
                 enough for people to notice.
                 <br />
                 <br />
-                At FinaHive, we believe your business deserves the majority of
+                At BeeHaiv, we believe your business deserves the majority of
                 the economics on any financial product you use, and that
                 includes the business checking accounts from our partner banks.
                 So, we found banks willing to pay high interest rates on these
-                checking accounts for you. We hope you love using FinaHive!
+                checking accounts for you. We hope you love using BeeHaiv!
               </AccordionContent>
             </AccordionItem>
           </Accordion>
