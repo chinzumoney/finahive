@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
 
-import Image from "next/image";
 import React from "react";
 import GetStartedForm from "@/components/commons/GetStartedForm";
 

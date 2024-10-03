@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { Separator } from "@/components/ui/separator";
 import { Metadata } from "next";
-import Image from "next/image";
+// import Image from "next/image";
 import React from "react";
 
 export const metadata: Metadata = {
