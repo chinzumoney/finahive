@@ -93,7 +93,7 @@ export default function PasswordResetEmail({ verificationCode }: AWSVerifyEmailP
                 className="w-16"
                 width="75"
                 height="45"
-                alt="Beehaiv's Logo"
+                alt="Finahive's Logo"
               />
             </Section>
             <Section className={"p-4"}>
@@ -136,14 +136,14 @@ export default function PasswordResetEmail({ verificationCode }: AWSVerifyEmailP
           </Section>
           <hr />
           <Text className={"py-2 text-[11px]"}>
-            This message was produced and distributed by Beehaiv Technology..
+            This message was produced and distributed by Finahive Technology..
             All rights reserved. This is a test project of{" "}
             <Link
-              href="https://beehaiv.jeremiahedavid.online"
+              href="https://finahive.online"
               target="_blank"
               className={"text-blue-600 underline"}
             >
-              Beehaiv Technology Inc.
+              Finahive Technology Inc.
             </Link>
             .
           </Text>

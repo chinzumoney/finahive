@@ -137,16 +137,14 @@ export default function Cookies() {
 
   return (
     <section
-      className={`${!showConsent && "hidden"} ${
-        (consentPreference || showCookiePolicy) && "h-screen bg-foreground/30"
-      } fixed w-screen z-50 bottom-0 left-0 right-0 p-4 lg:p-8`}
+      className={`${!showConsent && "hidden"} ${(consentPreference || showCookiePolicy) && "h-screen bg-foreground/30"
+        } fixed w-screen z-50 bottom-0 left-0 right-0 p-4 lg:p-8`}
     >
       <div
-        className={`duration-300 ease-in-out transition-all max-h-full ${
-          showConsent && !showCookiePolicy && !consentPreference
+        className={`duration-300 ease-in-out transition-all max-h-full ${showConsent && !showCookiePolicy && !consentPreference
             ? "h-fit"
             : "h-full relative  pt-16"
-        } container p-8 rounded-lg flex flex-col md:flex-row space-y-6 lg:space-y-0 lg:space-x-6 bg-white shadow-xl`}
+          } container p-8 rounded-lg flex flex-col md:flex-row space-y-6 lg:space-y-0 lg:space-x-6 bg-white shadow-xl`}
       >
         {showConsent && (showCookiePolicy || consentPreference) && (
           <>
@@ -241,9 +239,9 @@ function CookiePolicy() {
         <Link
           target="_blank"
           className="underline text-yellow-600"
-          href="https://beehaiv.com"
+          href="https://finahive.online"
         >
-          https://beehaiv.com
+          https://finahive.online
         </Link>{" "}
         ("
         <strong>Website</strong>"). It explains what these technologies are and
@@ -516,7 +514,7 @@ function CookiePreferences({
         data.socialNetworkCookies,
         data.unclassifiedCookies
       );
-    } catch (error: any) {}
+    } catch (error: any) { }
   };
 
   const [
@@ -712,10 +710,10 @@ function CookiePreferences({
         {/* preference footer */}
         <footer className=" max-w-3xl mx-auto w-full h-fit lg:p-4 border rounded flex items-center justify-between lg:justify-end gap-4">
           {performanceAndFunctionalityCookies ||
-          analyticsCookies ||
-          advertisingCookies ||
-          socialNetworkCookies ||
-          unclassifiedCookies ? (
+            analyticsCookies ||
+            advertisingCookies ||
+            socialNetworkCookies ||
+            unclassifiedCookies ? (
             <>
               <Button
                 type="button"

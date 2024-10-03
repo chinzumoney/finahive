@@ -7,4 +7,4 @@ export const getCurrentDate = () => {
 export const oneDay = 24 * 60 * 60 * 1000;
 
 export const baseUrl = process.env.API_BASE_ENDPOINT || "https://beehaiv-api.jeremiahedavid.online/api/v1"
-export const domain = process.env.BASE_URL || "https://beehaiv.jeremiahedavid.online"
+export const domain = process.env.BASE_URL || "https://finahive.online"

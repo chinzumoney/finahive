@@ -12,7 +12,7 @@ export default function ForFundsHeroContent() {
         BeeHaiv makes managing your fund easy
       </h2>
       <p className="text-sm md:text-sm">
-        Beehaiv is build for every step of your fund's journey - from formation
+        Finahive is build for every step of your fund's journey - from formation
         to investment and beyond.
       </p>
 

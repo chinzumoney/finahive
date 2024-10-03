@@ -17,12 +17,12 @@ export default function About() {
       <section className="w-screen pt-24 flex flex-col items-center justify-center text-center space-y-6 min-h-[70vh]">
         <div className="container h-full flex flex-col items-center justify-center space-y-8">
           <h1 className="text-5xl lg:text-7xl font-bold">
-            Beehaiv exists to save your business money
+            Finahive exists to save your business money
           </h1>
           <Separator className="w-8 bg-foreground" />
           <p className="text-sm lg:text-lg">
             BeeHaiv believes you deserve the majority of the returns on your
-            money. When you win, Beehaiv wins
+            money. When you win, Finahive wins
           </p>
         </div>
       </section>

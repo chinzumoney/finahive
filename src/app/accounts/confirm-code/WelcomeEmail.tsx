@@ -79,12 +79,12 @@ export const WelcomeEmail = ({ userFirstname }: KoalaWelcomeEmailProps) => (
           src={`${baseUrl}/logo.svg`}
           width="85"
           height="95"
-          alt="Beehaiv's logo"
+          alt="Finahive's logo"
           style={logo}
         />
         <Text style={paragraph}>Hi {userFirstname},</Text>
         <Text style={paragraph}>
-          Welcome to Beehaiv, the one financial technology to manage all your
+          Welcome to Finahive, the one financial technology to manage all your
           business needs.
         </Text>
         <Section className={"py-4"}>
@@ -92,7 +92,7 @@ export const WelcomeEmail = ({ userFirstname }: KoalaWelcomeEmailProps) => (
             className={
               "bg-foreground rounded-lg p-2 w-full text-background font-semibold"
             }
-            href="https://beehaiv.jeremiahedavid.online/accounts/onboarding/basic"
+            href="https://finahive.online/accounts/onboarding/basic"
           >
             Get Onboard
           </Button>
@@ -100,18 +100,18 @@ export const WelcomeEmail = ({ userFirstname }: KoalaWelcomeEmailProps) => (
         <Text style={paragraph}>
           Best Regards,
           <br />
-          The Beehaiv team
+          The Finahive team
         </Text>
         <hr style={hr} />
         <Text className={"py-2 text-[11px]"}>
-          This message was produced and distributed by Beehaiv Technology.. All
+          This message was produced and distributed by Finahive Technology.. All
           rights reserved. This is a test project of{" "}
           <Link
-            href="https://beehaiv.jeremiahedavid.online"
+            href="https://finahive.online"
             target="_blank"
             className={"text-blue-600 underline"}
           >
-            Beehaiv Technology Inc.
+            Finahive Technology Inc.
           </Link>
           .
         </Text>
